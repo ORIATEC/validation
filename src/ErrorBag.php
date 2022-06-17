@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation;
+namespace ORIATEC\Components\Validation;
 
 use ArrayIterator;
 use Countable;
@@ -15,8 +15,8 @@ use function str_replace;
 /**
  * Class ErrorBag
  *
- * @package    Somnambulist\Components\Validation
- * @subpackage Somnambulist\Components\Validation\ErrorBag
+ * @package    ORIATEC\Components\Validation
+ * @subpackage ORIATEC\Components\Validation\ErrorBag
  */
 class ErrorBag implements Countable, IteratorAggregate
 {

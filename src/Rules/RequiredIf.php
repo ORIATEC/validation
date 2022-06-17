@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules;
+namespace ORIATEC\Components\Validation\Rules;
 
 /**
  * Class RequiredIf
  *
- * @package    Somnambulist\Components\Validation\Rules
- * @subpackage Somnambulist\Components\Validation\Rules\RequiredIf
+ * @package    ORIATEC\Components\Validation\Rules
+ * @subpackage ORIATEC\Components\Validation\Rules\RequiredIf
  */
 class RequiredIf extends Required
 {

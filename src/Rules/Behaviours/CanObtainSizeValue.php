@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules\Behaviours;
+namespace ORIATEC\Components\Validation\Rules\Behaviours;
 
 use InvalidArgumentException;
 
 /**
  * Trait CanValidateSize
  *
- * @package    Somnambulist\Components\Validation\Rules\Behaviours
- * @subpackage Somnambulist\Components\Validation\Rules\Behaviours\CanValidateSize
+ * @package    ORIATEC\Components\Validation\Rules\Behaviours
+ * @subpackage ORIATEC\Components\Validation\Rules\Behaviours\CanValidateSize
  */
 trait CanObtainSizeValue
 {

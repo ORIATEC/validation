@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules;
+namespace ORIATEC\Components\Validation\Rules;
 
-use Somnambulist\Components\Validation\Rule;
-use Somnambulist\Components\Validation\Rules\Behaviours\CanObtainSizeValue;
+use ORIATEC\Components\Validation\Rule;
+use ORIATEC\Components\Validation\Rules\Behaviours\CanObtainSizeValue;
 
 /**
  * Class Min
  *
- * @package    Somnambulist\Components\Validation\Rules
- * @subpackage Somnambulist\Components\Validation\Rules\Min
+ * @package    ORIATEC\Components\Validation\Rules
+ * @subpackage ORIATEC\Components\Validation\Rules\Min
  */
 class Min extends Rule
 {

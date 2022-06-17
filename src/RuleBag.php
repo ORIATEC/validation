@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation;
+namespace ORIATEC\Components\Validation;
 
 use InvalidArgumentException;
-use Somnambulist\Components\Validation\Rules\Contracts\BeforeValidate;
+use ORIATEC\Components\Validation\Rules\Contracts\BeforeValidate;
 
 /**
  * Class RuleBag
  *
- * @package    Somnambulist\Components\Validation
- * @subpackage Somnambulist\Components\Validation\RuleBag
+ * @package    ORIATEC\Components\Validation
+ * @subpackage ORIATEC\Components\Validation\RuleBag
  *
  * @property array<int, Rule>
  */

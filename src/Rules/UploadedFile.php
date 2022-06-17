@@ -1,19 +1,19 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules;
+namespace ORIATEC\Components\Validation\Rules;
 
-use Somnambulist\Components\Validation\Contracts\MimeTypeGuesser as MimeTypeGuesserContract;
-use Somnambulist\Components\Validation\MimeTypeGuesser;
-use Somnambulist\Components\Validation\Rule;
-use Somnambulist\Components\Validation\Rules\Behaviours\CanObtainSizeValue;
-use Somnambulist\Components\Validation\Rules\Behaviours\CanValidateFiles;
-use Somnambulist\Components\Validation\Rules\Contracts\BeforeValidate;
+use ORIATEC\Components\Validation\Contracts\MimeTypeGuesser as MimeTypeGuesserContract;
+use ORIATEC\Components\Validation\MimeTypeGuesser;
+use ORIATEC\Components\Validation\Rule;
+use ORIATEC\Components\Validation\Rules\Behaviours\CanObtainSizeValue;
+use ORIATEC\Components\Validation\Rules\Behaviours\CanValidateFiles;
+use ORIATEC\Components\Validation\Rules\Contracts\BeforeValidate;
 
 /**
  * Class UploadedFile
  *
- * @package    Somnambulist\Components\Validation\Rules
- * @subpackage Somnambulist\Components\Validation\Rules\UploadedFile
+ * @package    ORIATEC\Components\Validation\Rules
+ * @subpackage ORIATEC\Components\Validation\Rules\UploadedFile
  */
 class UploadedFile extends Rule implements BeforeValidate
 {

@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation;
+namespace ORIATEC\Components\Validation;
 
-use Somnambulist\Components\Validation\Exceptions\ParameterException;
+use ORIATEC\Components\Validation\Exceptions\ParameterException;
 use function array_merge;
 use function array_shift;
 use function get_class;
@@ -10,8 +10,8 @@ use function get_class;
 /**
  * Class Rule
  *
- * @package    Somnambulist\Components\Validation
- * @subpackage Somnambulist\Components\Validation\Rule
+ * @package    ORIATEC\Components\Validation
+ * @subpackage ORIATEC\Components\Validation\Rule
  */
 abstract class Rule
 {

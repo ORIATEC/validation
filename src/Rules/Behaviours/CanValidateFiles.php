@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules\Behaviours;
+namespace ORIATEC\Components\Validation\Rules\Behaviours;
 
-use Somnambulist\Components\Validation\Helper;
+use ORIATEC\Components\Validation\Helper;
 
 /**
  * Trait CanValidateFiles
  *
- * @package    Somnambulist\Components\Validation\Rules\Behaviours
- * @subpackage Somnambulist\Components\Validation\Rules\Behaviours\CanValidateFiles
+ * @package    ORIATEC\Components\Validation\Rules\Behaviours
+ * @subpackage ORIATEC\Components\Validation\Rules\Behaviours\CanValidateFiles
  */
 trait CanValidateFiles
 {

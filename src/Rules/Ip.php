@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules;
+namespace ORIATEC\Components\Validation\Rules;
 
-use Somnambulist\Components\Validation\Rule;
+use ORIATEC\Components\Validation\Rule;
 
 /**
  * Class Ip
  *
- * @package    Somnambulist\Components\Validation\Rules
- * @subpackage Somnambulist\Components\Validation\Rules\Ip
+ * @package    ORIATEC\Components\Validation\Rules
+ * @subpackage ORIATEC\Components\Validation\Rules\Ip
  */
 class Ip extends Rule
 {

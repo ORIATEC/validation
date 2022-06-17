@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation;
+namespace ORIATEC\Components\Validation;
 
-use Somnambulist\Components\Validation\Exceptions\MessageException;
+use ORIATEC\Components\Validation\Exceptions\MessageException;
 
 /**
  * Class MessageBag
  *
- * @package    Somnambulist\Components\Validation
- * @subpackage Somnambulist\Components\Validation\MessageBag
+ * @package    ORIATEC\Components\Validation
+ * @subpackage ORIATEC\Components\Validation\MessageBag
  */
 class MessageBag
 {

@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules;
+namespace ORIATEC\Components\Validation\Rules;
 
-use Somnambulist\Components\Validation\Helper;
-use Somnambulist\Components\Validation\Rule;
+use ORIATEC\Components\Validation\Helper;
+use ORIATEC\Components\Validation\Rule;
 
 /**
  * Class In
  *
- * @package    Somnambulist\Components\Validation\Rules
- * @subpackage Somnambulist\Components\Validation\Rules\In
+ * @package    ORIATEC\Components\Validation\Rules
+ * @subpackage ORIATEC\Components\Validation\Rules\In
  */
 class In extends Rule
 {

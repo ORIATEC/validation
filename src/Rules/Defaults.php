@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules;
+namespace ORIATEC\Components\Validation\Rules;
 
-use Somnambulist\Components\Validation\Rule;
-use Somnambulist\Components\Validation\Rules\Contracts\ModifyValue;
+use ORIATEC\Components\Validation\Rule;
+use ORIATEC\Components\Validation\Rules\Contracts\ModifyValue;
 
 /**
  * Class Defaults
  *
- * @package    Somnambulist\Components\Validation\Rules
- * @subpackage Somnambulist\Components\Validation\Rules\Defaults
+ * @package    ORIATEC\Components\Validation\Rules
+ * @subpackage ORIATEC\Components\Validation\Rules\Defaults
  */
 class Defaults extends Rule implements ModifyValue
 {

@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules;
+namespace ORIATEC\Components\Validation\Rules;
 
-use Somnambulist\Components\Validation\Rule;
-use Somnambulist\Components\Validation\Rules\Behaviours\CanConvertValuesToBooleans;
+use ORIATEC\Components\Validation\Rule;
+use ORIATEC\Components\Validation\Rules\Behaviours\CanConvertValuesToBooleans;
 use function array_shift;
 use function in_array;
 use function is_bool;
@@ -13,8 +13,8 @@ use function is_bool;
  *
  * Based on Laravel validators prohibited_if
  *
- * @package    Somnambulist\Components\Validation\Rules
- * @subpackage Somnambulist\Components\Validation\Rules\ProhibitedIfRule
+ * @package    ORIATEC\Components\Validation\Rules
+ * @subpackage ORIATEC\Components\Validation\Rules\ProhibitedIfRule
  */
 class ProhibitedIf extends Rule
 {

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation;
+namespace ORIATEC\Components\Validation;
 
 use function array_map;
 use function implode;
@@ -10,8 +10,8 @@ use function str_replace;
 /**
  * Class Helper
  *
- * @package    Somnambulist\Components\Validation
- * @subpackage Somnambulist\Components\Validation\Helper
+ * @package    ORIATEC\Components\Validation
+ * @subpackage ORIATEC\Components\Validation\Helper
  */
 class Helper
 {

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation;
+namespace ORIATEC\Components\Validation;
 
 use function array_merge;
 use function call_user_func_array;
@@ -12,8 +12,8 @@ use function str_replace;
 /**
  * Class Attribute
  *
- * @package    Somnambulist\Components\Validation
- * @subpackage Somnambulist\Components\Validation\Attribute
+ * @package    ORIATEC\Components\Validation
+ * @subpackage ORIATEC\Components\Validation\Attribute
  */
 class Attribute
 {

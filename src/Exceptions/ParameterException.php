@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Exceptions;
+namespace ORIATEC\Components\Validation\Exceptions;
 
 use Exception;
 
 /**
  * Class MissingRequiredParameterException
  *
- * @package    Somnambulist\Components\Validation\Exceptions
- * @subpackage Somnambulist\Components\Validation\Exceptions\MissingRequiredParameterException
+ * @package    ORIATEC\Components\Validation\Exceptions
+ * @subpackage ORIATEC\Components\Validation\Exceptions\MissingRequiredParameterException
  */
 class ParameterException extends Exception
 {

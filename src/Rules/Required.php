@@ -1,15 +1,16 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules;
+namespace ORIATEC\Components\Validation\Rules;
 
-use Somnambulist\Components\Validation\Rule;
-use Somnambulist\Components\Validation\Rules\Behaviours\CanValidateFiles;
+use ORIATEC\Components\Validation\Rule;
+use ORIATEC\Components\Validation\Rules\Behaviours\CanValidateFiles;
+use Psr\Http\Message\UploadedFileInterface;
 
 /**
  * Class Required
  *
- * @package    Somnambulist\Components\Validation\Rules
- * @subpackage Somnambulist\Components\Validation\Rules\Required
+ * @package    ORIATEC\Components\Validation\Rules
+ * @subpackage ORIATEC\Components\Validation\Rules\Required
  */
 class Required extends Rule
 {
@@ -23,6 +24,11 @@ class Required extends Rule
         $this->setAttributeAsRequired();
 
         if ($this->attribute?->rules()->has('uploaded_file')) {
+
+            if($value instanceof UploadedFileInterface){
+                return $value->getError() != UPLOAD_ERR_NO_FILE;
+            }
+
             return $this->isValueFromUploadedFiles($value) && $value['error'] != UPLOAD_ERR_NO_FILE;
         }
 

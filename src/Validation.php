@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation;
+namespace ORIATEC\Components\Validation;
 
 use Closure;
-use Somnambulist\Components\Validation\Exceptions\RuleException;
-use Somnambulist\Components\Validation\Rules\Contracts\ModifyValue;
-use Somnambulist\Components\Validation\Rules\Required;
+use ORIATEC\Components\Validation\Exceptions\RuleException;
+use ORIATEC\Components\Validation\Rules\Contracts\ModifyValue;
+use ORIATEC\Components\Validation\Rules\Required;
 use function array_merge;
 use function array_splice;
 use function array_unique;
@@ -23,8 +23,8 @@ use function str_getcsv;
 /**
  * Class Validation
  *
- * @package    Somnambulist\Components\Validation
- * @subpackage Somnambulist\Components\Validation\Validation
+ * @package    ORIATEC\Components\Validation
+ * @subpackage ORIATEC\Components\Validation\Validation
  */
 class Validation
 {

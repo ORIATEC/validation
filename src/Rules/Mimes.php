@@ -1,17 +1,17 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules;
+namespace ORIATEC\Components\Validation\Rules;
 
-use Somnambulist\Components\Validation\Contracts\MimeTypeGuesser as MimeTypeGuesserContract;
-use Somnambulist\Components\Validation\MimeTypeGuesser;
-use Somnambulist\Components\Validation\Rule;
-use Somnambulist\Components\Validation\Rules\Behaviours\CanValidateFiles;
+use ORIATEC\Components\Validation\Contracts\MimeTypeGuesser as MimeTypeGuesserContract;
+use ORIATEC\Components\Validation\MimeTypeGuesser;
+use ORIATEC\Components\Validation\Rule;
+use ORIATEC\Components\Validation\Rules\Behaviours\CanValidateFiles;
 
 /**
  * Class Mimes
  *
- * @package    Somnambulist\Components\Validation\Rules
- * @subpackage Somnambulist\Components\Validation\Rules\Mimes
+ * @package    ORIATEC\Components\Validation\Rules
+ * @subpackage ORIATEC\Components\Validation\Rules\Mimes
  */
 class Mimes extends Rule
 {

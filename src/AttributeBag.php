@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation;
+namespace ORIATEC\Components\Validation;
 
 use InvalidArgumentException;
 
 /**
  * Class AttributeBag
  *
- * @package    Somnambulist\Components\Validation
- * @subpackage Somnambulist\Components\Validation\AttributeBag
+ * @package    ORIATEC\Components\Validation
+ * @subpackage ORIATEC\Components\Validation\AttributeBag
  *
  * @property array<string, Attribute> $data
  */

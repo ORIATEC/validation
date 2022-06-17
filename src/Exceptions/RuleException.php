@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Exceptions;
+namespace ORIATEC\Components\Validation\Exceptions;
 
 use Exception;
-use Somnambulist\Components\Validation\Rule;
+use ORIATEC\Components\Validation\Rule;
 
 /**
  * Class RuleException
  *
- * @package    Somnambulist\Components\Validation\Exceptions
- * @subpackage Somnambulist\Components\Validation\Exceptions\RuleException
+ * @package    ORIATEC\Components\Validation\Exceptions
+ * @subpackage ORIATEC\Components\Validation\Exceptions\RuleException
  */
 class RuleException extends Exception
 {

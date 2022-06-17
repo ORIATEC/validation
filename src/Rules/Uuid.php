@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules;
+namespace ORIATEC\Components\Validation\Rules;
 
-use Somnambulist\Components\Validation\Rule;
+use ORIATEC\Components\Validation\Rule;
 use function is_null;
 use function preg_match;
 use function str_replace;
@@ -10,8 +10,8 @@ use function str_replace;
 /**
  * Class UuidRule
  *
- * @package    Somnambulist\Components\Validation\Rules
- * @subpackage Somnambulist\Components\Validation\Rules\UuidRule
+ * @package    ORIATEC\Components\Validation\Rules
+ * @subpackage ORIATEC\Components\Validation\Rules\UuidRule
  */
 class Uuid extends Rule
 {

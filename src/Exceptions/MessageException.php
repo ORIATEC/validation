@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Exceptions;
+namespace ORIATEC\Components\Validation\Exceptions;
 
 use Exception;
 
 /**
  * Class MessageException
  *
- * @package    Somnambulist\Components\Validation\Exceptions
- * @subpackage Somnambulist\Components\Validation\Exceptions\MessageException
+ * @package    ORIATEC\Components\Validation\Exceptions
+ * @subpackage ORIATEC\Components\Validation\Exceptions\MessageException
  */
 class MessageException extends Exception
 {

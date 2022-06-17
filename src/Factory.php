@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation;
+namespace ORIATEC\Components\Validation;
 
-use Somnambulist\Components\Validation\Exceptions\RuleException;
+use ORIATEC\Components\Validation\Exceptions\RuleException;
 
 /**
  * Class Validator
  *
- * @package    Somnambulist\Components\Validation
- * @subpackage Somnambulist\Components\Validation\Validator
+ * @package    ORIATEC\Components\Validation
+ * @subpackage ORIATEC\Components\Validation\Validator
  */
 class Factory
 {

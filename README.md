@@ -1,15 +1,17 @@
 # Somnambulist Validation
 
-[![GitHub Actions Build Status](https://img.shields.io/github/workflow/status/somnambulist-tech/validation/tests?logo=github)](https://github.com/somnambulist-tech/validation/actions?query=workflow%3Atests)
-[![Issues](https://img.shields.io/github/issues/somnambulist-tech/validation?logo=github)](https://github.com/somnambulist-tech/validation/issues)
-[![License](https://img.shields.io/github/license/somnambulist-tech/validation?logo=github)](https://github.com/somnambulist-tech/validation/blob/master/LICENSE)
-[![PHP Version](https://img.shields.io/packagist/php-v/somnambulist/validation?logo=php&logoColor=white)](https://packagist.org/packages/somnambulist/validation)
-[![Current Version](https://img.shields.io/packagist/v/somnambulist/validation?logo=packagist&logoColor=white)](https://packagist.org/packages/somnambulist/validation)
+[![GitHub Actions Build Status](https://img.shields.io/github/workflow/status/oriatec/validation/tests?logo=github)](https://github.com/oriatec/validation/actions?query=workflow%3Atests)
+[![Issues](https://img.shields.io/github/issues/oriatec/validation?logo=github)](https://github.com/oriatec/validation/issues)
+[![License](https://img.shields.io/github/license/oriatec/validation?logo=github)](https://github.com/oriatec/validation/blob/master/LICENSE)
+[![PHP Version](https://img.shields.io/packagist/php-v/oriatec/validation?logo=php&logoColor=white)](https://packagist.org/packages/oriatec/validation)
+[![Current Version](https://img.shields.io/packagist/v/oriatec/validation?logo=packagist&logoColor=white)](https://packagist.org/packages/oriatec/validation)
 
-This is a re-write of [rakit/validation](https://github.com/rakit/validation), a standalone validator like Laravel Validation.
-In keeping with rakit/validation, this library does not have any other dependencies for usage.
+This is a fork of [somnambulist/validation](https://github.com/somnambulist-tech/validation), a standalone validator like Laravel Validation.
 
+Originaly, this package is a rewrite of [rakit/validation](https://github.com/rakit/validation). In keeping with rakit/validation, this library does not have any other dependencies for usage.
 Please note that the internal API is substantially different to rakit/validation.
+
+This fork add a compliance of PSR-7, especially UploadedFileInterface.
 
 Jump to [rules](#available-rules)
 
@@ -17,12 +19,13 @@ Jump to [rules](#available-rules)
 
  * PHP 8.0+
  * ext/mb-string
+ * php-fig/http-message
 
 ## Installation
 
 Install using composer, or checkout / pull the files from github.com.
 
- * composer require somnambulist/validation
+ * composer require oriatec/validation
 
 ## Usage
 
@@ -38,7 +41,7 @@ Using `make`:
 
 require('vendor/autoload.php');
 
-use Somnambulist\Components\Validation\Factory;
+use ORIATEC\Components\Validation\Factory;
 
 $validation = (new Factory)->make($_POST + $_FILES, [
     'name'                  => 'required',

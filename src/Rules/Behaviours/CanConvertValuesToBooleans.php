@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules\Behaviours;
+namespace ORIATEC\Components\Validation\Rules\Behaviours;
 
 use function array_map;
 
 /**
  * Trait CanConvertValuesToBooleans
  *
- * @package    Somnambulist\Components\Validation\Rules\Behaviours
- * @subpackage Somnambulist\Components\Validation\Rules\Behaviours\CanConvertValuesToBooleans
+ * @package    ORIATEC\Components\Validation\Rules\Behaviours
+ * @subpackage ORIATEC\Components\Validation\Rules\Behaviours\CanConvertValuesToBooleans
  */
 trait CanConvertValuesToBooleans
 {

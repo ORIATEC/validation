@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation;
+namespace ORIATEC\Components\Validation;
 
 use ArrayIterator;
 use Countable;
@@ -16,8 +16,8 @@ use const ARRAY_FILTER_USE_BOTH;
 /**
  * Class DataBag
  *
- * @package    Somnambulist\Components\Validation
- * @subpackage Somnambulist\Components\Validation\DataBag
+ * @package    ORIATEC\Components\Validation
+ * @subpackage ORIATEC\Components\Validation\DataBag
  */
 class DataBag implements Countable, IteratorAggregate
 {

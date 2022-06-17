@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules;
+namespace ORIATEC\Components\Validation\Rules;
 
-use Somnambulist\Components\Validation\Helper;
-use Somnambulist\Components\Validation\Rule;
+use ORIATEC\Components\Validation\Helper;
+use ORIATEC\Components\Validation\Rule;
 use function sprintf;
 
 /**
  * Class NotIn
  *
- * @package    Somnambulist\Components\Validation\Rules
- * @subpackage Somnambulist\Components\Validation\Rules\NotIn
+ * @package    ORIATEC\Components\Validation\Rules
+ * @subpackage ORIATEC\Components\Validation\Rules\NotIn
  */
 class NotIn extends Rule
 {

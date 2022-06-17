@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation;
+namespace ORIATEC\Components\Validation;
 
 use function array_is_list;
 use function array_merge;
@@ -15,8 +15,8 @@ use function strtr;
 /**
  * Class ErrorMessage
  *
- * @package    Somnambulist\Components\Validation
- * @subpackage Somnambulist\Components\Validation\ErrorMessage
+ * @package    ORIATEC\Components\Validation
+ * @subpackage ORIATEC\Components\Validation\ErrorMessage
  */
 class ErrorMessage
 {

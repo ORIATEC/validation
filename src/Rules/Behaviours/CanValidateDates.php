@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules\Behaviours;
+namespace ORIATEC\Components\Validation\Rules\Behaviours;
 
-use Somnambulist\Components\Validation\Exceptions\ParameterException;
+use ORIATEC\Components\Validation\Exceptions\ParameterException;
 
 /**
  * Trait CanValidateDates
  *
- * @package    Somnambulist\Components\Validation\Rules\Behaviours
- * @subpackage Somnambulist\Components\Validation\Rules\Behaviours\CanValidateDates
+ * @package    ORIATEC\Components\Validation\Rules\Behaviours
+ * @subpackage ORIATEC\Components\Validation\Rules\Behaviours\CanValidateDates
  */
 trait CanValidateDates
 {

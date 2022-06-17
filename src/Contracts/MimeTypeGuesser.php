@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Contracts;
+namespace ORIATEC\Components\Validation\Contracts;
 
 /**
  * Class MimeTypeGuesser
  *
- * @package    Somnambulist\Components\Validation
- * @subpackage Somnambulist\Components\Validation\MimeTypeGuesser
+ * @package    ORIATEC\Components\Validation
+ * @subpackage ORIATEC\Components\Validation\MimeTypeGuesser
  */
 interface MimeTypeGuesser
 {

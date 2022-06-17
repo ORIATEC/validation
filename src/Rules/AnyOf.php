@@ -1,17 +1,17 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules;
+namespace ORIATEC\Components\Validation\Rules;
 
-use Somnambulist\Components\Validation\Helper;
-use Somnambulist\Components\Validation\Rule;
+use ORIATEC\Components\Validation\Helper;
+use ORIATEC\Components\Validation\Rule;
 use function explode;
 use function in_array;
 
 /**
  * Class AnyOf
  *
- * @package    Somnambulist\Components\Validation\Rules
- * @subpackage Somnambulist\Components\Validation\Rules\AnyOf
+ * @package    ORIATEC\Components\Validation\Rules
+ * @subpackage ORIATEC\Components\Validation\Rules\AnyOf
  */
 class AnyOf extends Rule
 {

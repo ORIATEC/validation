@@ -1,11 +1,12 @@
 {
-    "name": "somnambulist/validation",
+    "name": "oriatec/validation",
     "type": "library",
-    "description": "A re-write of rakit/validation providing Laravel like validation as a standalone library",
+    "description": "A re-write of somnambulist/validation providing Laravel like validation, psr-7 compliant, as a standalone library",
     "keywords": [
         "php",
         "validation",
-        "symfony"
+        "symfony",
+        "psr-7"
     ],
     "license": "MIT",
     "authors": [
@@ -16,7 +17,8 @@
     ],
     "require": {
         "php": ">=8.0",
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
+        "psr/http-message": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~9.5",

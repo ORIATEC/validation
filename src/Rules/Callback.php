@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
 
-namespace Somnambulist\Components\Validation\Rules;
+namespace ORIATEC\Components\Validation\Rules;
 
 use Closure;
 use InvalidArgumentException;
-use Somnambulist\Components\Validation\Rule;
+use ORIATEC\Components\Validation\Rule;
 
 /**
  * Class Callback
  *
- * @package    Somnambulist\Components\Validation\Rules
- * @subpackage Somnambulist\Components\Validation\Rules\Callback
+ * @package    ORIATEC\Components\Validation\Rules
+ * @subpackage ORIATEC\Components\Validation\Rules\Callback
  */
 class Callback extends Rule
 {
