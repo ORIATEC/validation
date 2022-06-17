@@ -11,8 +11,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Dave Redfern",
-            "email": "info@somnambulist.tech"
+            "name": "Thibaud DELOBELLE",
+            "email": "thibaud.delobelle@oriatec.fr"
         }
     ],
     "require": {
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Somnambulist\\Components\\Validation\\": "src/"
+            "ORIATEC\\Components\\Validation\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Somnambulist\\Components\\Validation\\Tests\\": "tests/"
+            "ORIATEC\\Components\\Validation\\Tests\\": "tests/"
         }
     },
     "config": {
